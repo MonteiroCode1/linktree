@@ -7,15 +7,11 @@
 
 body {
     background-image: linear-gradient(to left, #88A1C0, #85B8B4 );
-    padding: 5em 5em 5em 5em;
-    margin: 0px;
 }
 
 main {
     background-image: linear-gradient(to left, #B6D4F9, #BFF0EC);
-    width: 100%;
-    margin: auto;
-    padding: 10px 10px 90px 10px;
+    padding: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
     border-radius: 12px
 }
@@ -40,7 +36,8 @@ header > img {
 
 nav {
     text-align: center;
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     margin: auto;
 }
 
